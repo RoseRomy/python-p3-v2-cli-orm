@@ -4,6 +4,7 @@ from models.__init__ import CONN, CURSOR
 from models.department import Department
 from models.employee import Employee
 
+
 def seed_database():
     Employee.drop_table()
     Department.drop_table()
